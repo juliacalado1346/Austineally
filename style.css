@@ -1,4 +1,50 @@
 body {
-    color: white;
-    background: black;
+    font-family: Arial, sans-serif;
+    background-image: url('obx2.jpg');
+    background-size: cover;
+    background-position: center 60%; /* Ajusta a posição da imagem de fundo */
+    background-repeat: no-repeat;
+    color: #fffafa;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.638);
+}
+
+.container {
+    background-color: rgba(16, 15, 15, 0.419); /* Fundo semitransparente */
+    padding: 1px;
+    border-radius: 30px;
+    max-width: 590px;
+    max-lines: 400px;
+    align-items: center;
+    
+}
+
+h1 {
+    color: #faeadd;
+    margin-bottom: 40px;
+    font-size:x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    
+}
+
+.background-video {
+    width: 900%; /* Mantém a largura total */
+    height: 900px; /* Define uma altura fixa para diminuir o comprimento */
+    border: 2px solid #f39c12;
+    border-radius: 5px;
+    opacity: 30; /* Reduz a opacidade do vídeo */
+    margin-top: 40px; /* Adiciona espaço entre o título e o vídeo */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
 }
